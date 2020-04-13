@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/color1</item>
+        <item name="editTextColor">@color/color2</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+    <!-- for individual widgets -->
+    <style name = "textView">
+          <item name="android:textSize">50sp</item>
+          <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textView2" parent="@style/AppTheme">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- to inherit styles -->
+    <style name="textView2.textView" parent="@style/AppTheme">
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">55sp</item>
+        <item name="android:textStyle">italic</item>
+
+    </style>
+
+</resources>
